@@ -1,0 +1,448 @@
+{% load staticfiles %}
+<meta> #-*- coding: utf-8 -*- </meta>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+<head>
+  <meta charset="UTF-8">
+<style type="text/css">
+
+body { font-family:'Goyang'; }
+
+.font-test { font: 'Goyang'; }
+
+</style>
+</head>           
+<header>
+  <div class="overlay">
+ 
+   <iframe width="1550" height="600" src="https://www.youtube.com/embed/CNyVnC9qT1Q?list=PL5FwUNcd6cian29q1Rldd27nxsBknCv46&autohide=0&autoplay=1&controls=0&disablekb=1&modestbranding=1&rel=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+   </iframe>
+ 
+  </div>
+  <div class="container h-100">
+    <div class="d-flex h-100 text-center align-items-center">
+      <div class="w-100 text-white">
+       
+        <h1 class="display-3">이지혜를 대여합니다 </h1> <br>
+        <h1 color="white"></h1>
+        <p class="lead mb-0"> #주의# 무겁습니다 </p>
+      
+      </div>
+    </div>
+  </div>
+ 
+</header>
+
+
+
+<body>
+<section class="my-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-11 mx-auto">
+        
+        <h5> 올해로 약 22년산인 <strong>이지혜</strong>입니다.</h5> <br>
+        <h5> 가끔식 배고프면 <strong><code> 난폭해져요. </code></strong></h5><br>
+        <h5> 밥 먹을 때 건드리면<strong><code> 물기도 합니다. </code></strong> </h5><br>
+          
+        <h5 class="mb-0">
+          조금 더 자세한 정보를 원하신다면 클릭하세요  <a href="https://nanananana-jijijijijiji.c9users.io/ex50/templates/index.html">대여전문 baboya </a>
+        </h5>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+  font-family:'Malssami815' ;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@font-face { font-family: 'Malssami815'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/Malssami815.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Goyang'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Goyang.woff') format('woff'); font-weight: normal; font-style: normal; }
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+ 
+ 
+</style>
+
+
+
+
+<!-- Page Content -->
+<div class="container">
+
+  <!-- Page Heading -->
+  <h1 class="my-4">이지혜 
+    <small>세부사항</small>
+  </h1>
+
+  <div class="row">
+    <div class="col-lg-6 mb-4">
+      <div class="card h-100">
+       <body> <a href="#"><img class="card-img-top" src="{% static 'tall.jpg' %}" height="430" "alt="tall"></a></body>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="#">총장</a>
+          </h4>
+          <p class="card-text"> 길지는 않지만 그렇다고 짧지도 않은 아주 적당한 기장 158</p>
+          <p> 신제품들의 총장이 점차 늘어나는 추세를 보이고 있긴하나,</p>
+          <p> 최근 복고풍이 다시 유행하면서</p>
+          <p> 구세대 제품들에 관심을 기울이는 이용자가 많아졌다. </p>
+          <p> 이용에 불편을 줄 정도로 짧은 수준은 아니며,</p>
+          <p> 기성세대들은 다 불평불만 없이 잘만 사용했다.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6 mb-4">
+      <div class="card h-100">
+       <body> <img class="card-img-top" src="{% static 'head.jpg' %}" height="430" alt="총장"></a></body>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="#">색상</a>
+          </h4>
+          <p class="card-text">아주 밝은 갈색과 밝은 누렁의 혼합체</p>
+          <p> 제품 대부분을 차지하는 색상은 밝은 누렁이다.</p>
+          <p> 제품 상단에는 밝은 갈색을 띄는 장식체가 주를 이룬다.   </p>
+          <p>*주의* 상품 일부에서 검정색 반점이 발견될 수도 있으나</p>
+          <p>이는 제조 과정에서 생길 수 있는 자연적인 현상이므로</p>
+          <p>걱정하지 않으셔도 된다.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6 mb-4">
+      <div class="card h-100">
+        <a href="#"><img class="card-img-top" src="{% static 'ohh.jpg' %}" height="350" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="#">가동성</a>
+          </h4>
+          <p class="card-text"> 그저 생존에 뒤쳐지지 않을 정도의 가동성</p>
+          <p> 관절을 움직일 때마다 삐그덕거린다는 불만사항이 종종 올라왔다 . </p>
+          <p> 그러한 이유로 최근 기름칠을 잘 해두긴 했다. </p>
+          <p> 그러나, </p>
+          <p></p>이러한 것에 예민하신 사용자라면 다른 제품을 고려해보시길 바란다. </p>
+          <p> 관절 가동범위가 좋다고 착각해서, 혼자 묘기를 부리기도 하는데, </p>
+          <p> 본인의 한계를 몰라 어느 순간 비명소리와 함께 나자빠지기도한다.</p>
+          <p> </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6 mb-4">
+      <div class="card h-100">
+        <a href="#"><img class="card-img-top" src="{% static 'gg.jpg' %}" height="350"" alt=""></a>
+        <div class="card-body">
+          <h4 class="card-title">
+            <a href="#"> 저장 능력</a>
+          </h4>
+          <p class="card-text" 저장 용량은 딱 기본만 탑재되어 있는 상태 </p>
+            <p> 전반적인 성능에 지장을 줄 정도는 아니다.  </p>
+            <p> 그저 타 제품에 비해 기억능력 및 저장능력이 조금 떨어질 뿐이다.</p>
+            <p>  저장용량이 충분하게 탑재된 제품을 찾고 계신다면 </p>
+            <p>  추가 비용을 지불하고 저장 용량을 확장하시는 방법도 있다.</p>
+            <p>  다만, 저장용량을 확장할 경우 재품에 딸려가는 부수품들(필기도구)</p>
+            <p> 역시 늘기때문에 최종적인 제품의 무게는 늘어날 수 밖에 없다.</p>
+      </div>
+    </div>
+   
+   
+  
+  </div>
+  <!-- /.row -->
+
+  <!-- Pagination -->
+  <ul class="pagination justify-content-center">
+   
+   
+    </li>
+  </ul>
+
+</div>
+<!-- /.container -->
+<!-- /.container -->
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#"> 이지혜 대여합니다.</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+       
+      </ul>
+    
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+<header>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <!-- Slide One - Set the background image for this slide in the line below -->
+      <div class="carousel-item active" style="background-image: src("{% static 'dog.jpg' %}")">
+        <img src="{% static 'dog.jpg' %}" width="1110" height="600">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="display-4"> First</h3>
+          <p class="lead">야성적인 매력이 뿜뿜하는 산책중인 별이입니다.</p>
+        </div>
+      </div>
+      <!-- Slide Two - Set the background image for this slide in the line below -->
+      <div class="carousel-item" style="background-image: src()">
+         <img src="{% static 'ㅋㅋ.jpg' %}" width="1110" height="600">
+        <div class="carousel-caption d-none d-md-block">
+         <h3 class="display-4">Second</h3>
+          <p class="lead">햇빛에 노곤노곤해진 별이입니다.</p>
+        </div>
+      </div>
+      <!-- Slide Three - Set the background image for this slide in the line below -->
+      <div class="carousel-item" style="background-image: src()">
+         <img src="{% static 'dd.jpg' %}" width="1110" height="550"> 
+        <div class="carousel-caption d-none d-md-block"> 
+         <h3 class="display-4">Third </h3>
+          <p class="lead">별이는 멍청한 표정을 너무 자주 지어요.</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon"aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+  </div>
+</header>
+
+<!-- Page Content -->
+<section class="py-5">
+  <div class="container">
+    <h3 class="font-weight-light"> '별'</h3><hr>
+    <p class="lead"> '이지혜'를 대여하시면 함께 제공되는 '별'이를 사진으로 먼저 만나볼까요? 
+  </div>
+</section>
+
+<style>
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+</style>
+<!-- This snippet uses Font Awesome 5 Free as a dependency. You can download it at fontawesome.io! -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
+<section class="pricing py-5">
+  <div class="container">
+    <div class="row">
+      <!-- Free Tier -->
+      <div class="col-lg-4">
+        <div class="card mb-5 mb-lg-0">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">무료 이용권</h5>
+            <h6 class="card-price text-center">$0<span class="period">/day</span></h6>
+            <hr>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fas fa-check"></i></span> anybody <li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span> 카톡 발로 답장합니다.</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span> 노잼 드립은 정중히 거절합니다.</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span> 밥은 사주실 때만 함께합니다.</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span> 별이 바쁩니다.</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span> 성질이 난폭합니다.</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span> 같이 있다가도 제가 어느 순간 갑자기 사라지는 마술을 보실 수 있습니다. </li>
+             
+            </ul>
+            <a href="#" class="btn btn-block btn-primary text-uppercase">Button</a>
+          </div>
+        </div>
+      </div>
+      <!-- Plus Tier -->
+      <div class="col-lg-4">
+        <div class="card mb-5 mb-lg-0">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">월간 이용권</h5>
+            <h6 class="card-price text-center">$50 <span class="period">/month</span></h6>
+            <hr>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fas fa-check"></i></span> somebody <li>
+              
+              <li><span class="fa-li"><i class="fas fa-check"></i></span> 하루 카톡 최대 100건까지 가능합니다.</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span> 노잼 드립에 웃어는 드립니다.</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span> 밥은 종종 함께 하기도 합니다.  </li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span> 별이 사진, 동영상 공유해드립니다.</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span> 배고프면 성질이 난폭해지기도 합니다.</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>가끔 구라도 칩니다.</li>
+            </ul>
+            <a href="#" class="btn btn-block btn-primary text-uppercase">Button</a>
+          </div>
+        </div>
+      </div>
+      <!-- Pro Tier -->
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">연간 이용권</h5>
+            <h6 class="card-price text-center">$500<span class="period">year</span></h6>
+            <hr>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong> only 1 user </strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span> 카톡 대화 무제한으로 가능합니다.</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span> 노잼 드립도 신명나게 받아쳐 드립니다.</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span> 밥 친구 상시 대기합니다. </li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span> 별이 실물 영접 기회를 부여합니다.  </li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span> 성질이 온화하고 정갈합니다.</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span> 가끔 마술도 보여줍니다.</li>
+             
+              <hr>
+            </ul>
+            <a href="#" class="btn btn-block btn-primary text-uppercase"> Button </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <style>
+ section.pricing {
+  background: pink;
+  background: linear-gradient(to right, yellow);
+}
+
+.pricing .card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing hr {
+  margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+}
+
+.pricing .card-price {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.pricing .card-price .period {
+  font-size: 0.8rem;
+}
+
+.pricing ul li {
+  margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+  opacity: 0.7;
+}
+
+.pricing .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+  .pricing .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+  .pricing .card:hover .btn {
+    opacity: 1;
+  }
+}
+  </style>     
+  
+  
+
+ 
+
+
+
+     
+     
+     
+     
+     
+       
